@@ -106,7 +106,7 @@
 		}
 
 	body {
-		background-color: #183026;
+		background-color: #ffffff93;
 		background-image: url('images/overlay.png'), url('../../images/lanikai.jpg');
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -1115,7 +1115,8 @@
 		/* Basic */
 
 			body {
-				background-color: #203936;
+				background-color: #ffffff93;
+				opacity: 0;
 				background-image: url('images/overlay.png'), url('../../images/lanikai.jpg');
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
