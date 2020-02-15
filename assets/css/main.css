@@ -84,9 +84,10 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/laniaki.jpg");
+		background-image: url("images/overlay.png"), url("https://github.com/minamjo/minamjo.github.io/blob/master/images/lanikai.jpg?raw=true");
 		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		/* background-size: auto, cover;  120px or 60px, cover */
+		background-size: 72px, cover; 
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -199,7 +200,7 @@ input, select, textarea {
 	}
 
 	header {
-		margin-bottom: 1em;
+		margin-bottom: 3em;
 	}
 
 		header p {
@@ -2089,6 +2090,7 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
+		/* changed color to purple */
 		background: #7058db url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
@@ -2352,7 +2354,7 @@ input, select, textarea {
 
 			body {
 				background-color: #e1e6e1;
-				background-image: url("images/overlay.png"), url("../../images/lanikai.jpg");
+				background-image: url("images/overlay.png"), url("https://github.com/minamjo/minamjo.github.io/blob/master/images/lanikai.jpg?raw=true");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
